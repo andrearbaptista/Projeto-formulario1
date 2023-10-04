@@ -1,0 +1,168 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;  
+}
+
+body{
+  background-color: #efefef;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
+h1,
+legend,
+button {
+  font-family: "Staatliches", cursive;
+}
+legend {
+  font-size: 24px;
+  color: #535971;
+  
+}
+
+header{
+  color: #fff;
+  background-color: #535971;
+  display:flex;
+  height: 436px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+
+}
+
+.hero p{
+  max-width: 352px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+main{
+  background-color: #fff;
+  width: 750px;
+  border-radius: 20px;
+  margin: -100px auto 100px;
+ 
+  
+}
+.container{
+  padding: 64px;
+}
+
+hr{
+  margin:6px 0 36px;
+  border: 1px solid #e6e6f0;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 18px;
+
+}
+
+label{
+  padding-bottom: 8px;
+  color: #4e4958;
+  font-size: 14px;
+}
+
+label span{
+  color: #8c8a90;
+  font-size: 12px;
+}
+
+input{
+  border-radius: 8px;
+  height:56px;
+  width: 622px;
+  border: 1px solid #E6E6F0;
+  background-color: #FAFAFC;
+  width: 100%;
+  margin-bottom: 16px;
+  padding-left: 10px;
+  color:#8d8c91;
+  font-family: "Poppins", sans-serif;
+}
+
+.input-group{
+  display:flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.input-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.time legend{
+  font-size: 20px;
+}
+.time {
+  display: flex;
+  align-items: center;
+  
+  
+
+}
+.date {
+  margin-right: 31px;
+  width: 300px;
+  
+}
+.time1{
+  
+  display:flex;
+  gap: 10px;
+  justify-content: space-between;
+
+}
+
+.time1 .input-wrapper input{
+  width: 140px;
+  
+}
+
+.time-group{
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  width: 750px;
+  height: 160px;  
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;  
+  position: relative;
+  margin: 0px auto auto auto;
+  display: flex;
+}
+
+button{
+width: 608px;
+height: 55.652px;
+background-color:#FF5374;
+color: #fff;
+border-radius: 20px;
+border: none;
+font-size: 20px;
+margin: auto;
+
+}
+.legend-group legend{
+  font-size: 20px;
+}
+
+
+
+
